@@ -4,7 +4,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Just Tech News</title>
+  <meta name="theme-color" content="#000000" />
+
+  <title>it's Tech!</title>
+
+  <link rel="icon" href="/assets/favicon.ico" />
+  <link rel="apple-touch-icon" href="/assets/logo192.png" />
   <link rel="stylesheet" href="/stylesheets/style.css">
 </head>
 
@@ -12,7 +17,7 @@
   <div class="wrapper">
     <header>
       <h1>
-        <a href="/">Just Tech News</a>
+        <a href="/"><img src=/assets/logo192.png height="100px"/></a>
       </h1>
       <nav>
         {% if loggedIn == True %}
@@ -27,7 +32,7 @@
       {% block body %}{% endblock %}
     </main>
     <footer>
-      Thanks for visiting!
+      created by: &nbsp <a href="https://get.watsonised.com" target=_blank > Mark Watson </a>
     </footer>
   </div>
   
