@@ -25,7 +25,7 @@
 
 **What is this project?**  
 
-*  Simple application for cat lovers to review the 60+ breeds known in the world.  
+*  A place for logged in users to post links to technology articles, comment on others user's posts; and / or simply up-vote to show they like / appreciate the post.  
    
    [Live application:  its-tech.herokuapp.com](https://its-tech.herokuapp.com)  
 
@@ -33,13 +33,13 @@
 
 **Why this project?**  
 
-* Refactored code from a Nodejs server to Python.  This was done to demonstrate my understanding of the Python programming language - all about those indents and decorating functions!
+* All about Python!  The app is from refactored code to replace a Nodejs server with Python.  This was done to demonstrate my understanding of the Python programming language - all about those indents and decorating functions!
 
 ---
 
 ### 2. User Story  
 
-* AS a technology enthusiast 
+* AS a technology enthusiast  
 * I WANT a place to provide links to technology websites for others to comment on
 * SO THAT I can have a network of people also interested in technology.  
 
@@ -124,7 +124,8 @@ You are welcome to modify the code as you need as allowed by the [license](#7-li
    - the database stores user accounts, posts, comments, or upvotes
    - anyone accessing the app are able to see posts on the homepage
    - posts are dated, have URLs, and plural words are properly formatted
-   - logged-in users can create new posts and comments and upvote other posts
+   - logged-in users can create new posts and comments and upvote other posts  
+
 [x]  Application is deployed to Heroku [its-tech.herokuapp.com](https://its-tech.herokuapp.com).  
 [x]  Application loads with no errors.  
 [x]  User experience is intuitive and easy to navigate.  
